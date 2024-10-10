@@ -1,0 +1,75 @@
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .weather-info:hover {
+    transform: scale(1.05); 
+  }
+  
+  .weather-info h2 {
+    font-size: 3em;
+    color: #fff;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  .weather-info p {
+    font-size: 1.2em;
+    color: #eaeaea;
+    margin: 5px 0;
+  }
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #282c34;
+  }
+  
+  .spinner-container ion-spinner {
+    --spinner-color: #ffffff; 
+    --spinner-duration: 1s; 
+  }
+  
+  ion-content {
+    --background: linear-gradient(to top, #4facfe 0%, #00f2fe 100%); 
+    color: #fff;
+  }
+  
+  ion-card {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  ion-card:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+  }
+  
+
+  ion-card-title {
+    color: #fff;
+    font-size: 1.8em;
+  }
+  
+  ion-card-subtitle {
+    color: #f1f1f1;
+    font-size: 1.2em;
+  }
+  
+  .weather-info ion-img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
